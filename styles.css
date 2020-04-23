@@ -84,28 +84,25 @@ section.about p {
     text-align: center;
 }
 
-.projects {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
 
+}
 .projects h1 {
     width: 100%;
     flex-basis: 100%;
     text-align: center;
     margin: 1em;
 }
-
 .project {
     display: block;
-    width: 286px;
+    width: 100%;
     background: red;
     margin-bottom: 20px;
     height: 200px;
     position: relative;
 }
-
 .project h5 {
     display: block;
     background: rgba(0, 0, 0, 0.8);
